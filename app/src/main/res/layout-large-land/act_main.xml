@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_main"
+    tools:context="com.derek_s.cursor.ActMain">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tv_count">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/spacer"
+                android:layout_width="wrap_content"
+                android:layout_height="?actionBarSize" />
+
+            <EditText
+                android:id="@+id/et_main"
+                android:layout_width="600dp"
+                android:layout_height="wrap_content"
+                android:gravity="left|top"
+                android:imeOptions="flagNoExtractUi"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:inputType="textCapSentences|textMultiLine"
+                android:background="@android:color/transparent"
+                android:nestedScrollingEnabled="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/spacer"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="120 CHAR"
+        android:textSize="12sp"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:gravity="right"
+        android:textColor="@color/night_text"
+        android:background="@color/toolbar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <include
+        android:id="@+id/toolbar_actionbar"
+        layout="@layout/toolbar"
+        android:layout_width="48dp"
+        android:layout_height="?actionBarSize"
+        android:layout_gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>

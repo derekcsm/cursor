@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ff006977</color>
+    <color name="primary_dark">#ff181818</color>
+    <color name="accent">#00BCD4</color>
+
+    <color name="night_bg">#393939</color>
+    <color name="night_text">#C6C6C6</color>
+    <color name="light_bg">#F2F2F2</color>
+    <color name="light_text">#1C1C17</color>
+
+    <color name="toolbar">@color/primary_dark</color>
+
+    <color name="night_info">#ff242424</color>
+    <color name="light_info">#EDEDED</color>
+</resources>

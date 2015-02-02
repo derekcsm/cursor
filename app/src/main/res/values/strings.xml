@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cursor</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+
+    <string name="copy_all">Copy to clipboard</string>
+    <string name="copied_text_successful">All text copied to clipboard</string>
+
+    <string name="night_mode">Dark mode</string>
+
+    <string name="clear_text">Clear text</string>
+    <string name="confirm_clear">Clear all text?</string>
+    <string name="confirm_clear_message">You cannot undo this action.</string>
+
+    <string name="share">Share</string>
+    <string name="share_using">Share using:</string>
+
+    <string name="about">About</string>
+    <string name="about_body"><![CDATA[
+        Designed by Derek Smith in a couple hours one weekend.<br/>
+        <a href=\'http://derek-s.com\'>Website</a>&nbsp;&nbsp;
+        <a href=\'https://twitter.com/drkcsm\'>Twitter</a>&nbsp;&nbsp;
+        <a href=\'https://google.com/+DerekSmithBased\'>Google+</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/derekcsm\'>GitHub</a>&nbsp;&nbsp;
+    ]]></string>
+    <string name="dismiss">Dismiss</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="md_dark_theme">true</item>
+        <item name="md_background_color">@color/primary</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="">
+        <item name="popupTheme">@style/ToolbarPopup</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="ToolbarPopup" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+</resources>
