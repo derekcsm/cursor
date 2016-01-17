@@ -6,11 +6,35 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    </LinearLayout>
+        <EditText
+            android:id="@+id/et_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="start|top"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="textCapSentences|textMultiLine"
+            android:paddingBottom="@dimen/first_keyline"
+            android:paddingLeft="@dimen/first_keyline"
+            android:paddingRight="@dimen/second_keyline"
+            android:paddingTop="@dimen/first_keyline">
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="@dimen/second_keyline"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_menu_white_24dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="center"/>
+    </RelativeLayout>
 
     <fragment
         android:id="@+id/fragment_drawer"

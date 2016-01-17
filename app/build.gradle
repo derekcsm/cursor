@@ -43,10 +43,15 @@ dependencies {
     // Google - Android
     compile "com.android.support:design:$android_support_version"
     compile "com.android.support:support-annotations:$android_support_version"
+    compile "com.android.support:support-v4:$android_support_version"
+    compile "com.android.support:recyclerview-v7:$android_support_version"
 
     // Kotlin
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile "io.reactivex:rxkotlin:$rxkotlin_version"
+
+    // Architecture
+    compile 'com.jakewharton:kotterknife:0.1.0-SNAPSHOT'
 
     // Views
     compile("com.github.afollestad.material-dialogs:core:$materialdialogs_version") {
